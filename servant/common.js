@@ -29,7 +29,7 @@ const {
 } = require("./cli").opts;
 const {subcommand} = require("./cli");
 
-const tmpDir = './.tmpWorkingDir';
+const tmpDir = 'tmp/.tmpWorkingDir';
 
 async function runTestsOnFile(openNewPage, targetProject) {
     const start = Date.now();
